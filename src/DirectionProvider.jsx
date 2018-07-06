@@ -5,7 +5,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { forbidExtraProps } from 'airbnb-prop-types';
-import brcast from 'brcast';
+import brcast from 'brcast/dist/brcast.umd';
 import brcastShape from './proptypes/brcast';
 import directionPropType from './proptypes/direction';
 import { DIRECTIONS, CHANNEL } from './constants';
